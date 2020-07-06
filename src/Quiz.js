@@ -7,7 +7,7 @@ class Quiz extends Component {
         return (
             <div>
                 <div className='QuizQuestion'>
-                    String: {quizData.quiz_questions[this.state.quiz_position].instruction_text}
+                    {quizData.quiz_questions[0].instruction_text}
 
                 </div>
             </div>
