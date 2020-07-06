@@ -3,8 +3,6 @@ import QuizQuestion from './QuizQuestion'
 import QuizEnd from './QuizEnd'
 
 let quizData = require('./quiz_data.json')
-//const showNextQuestion = () => {
-
 
 class Quiz extends Component {
     constructor(props) {
